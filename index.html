@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My blog</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="CSS/font/flaticon.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="CSS/font/flaticon.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap"
+      rel="stylesheet"/>
     <style>
-        .site {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-image: linear-gradient(to right,#29c4a9,rgba(255, 195, 30, 0.94));
-        }
-        main {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        main p {
-            text-align: center;
-        }
+      .site {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: linear-gradient(
+          to right,
+          #29c4a9,
+          rgba(255, 195, 30, 0.94)
+        );
+      }
+      main {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      main p {
+        text-align: center;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <section class="site">
-        <section class="icons-container">
-            <div class="icons">
-                <a href=""><span class="flaticon-001-facebook"></span></a>
-                <a href=""><span class="flaticon-002-twitter"></span></a>
-                <a href=""><span class="flaticon-011-instagram"></span></a>
-                <a href=""><span class="flaticon-010-linkedin"></span></a>
-                <a href=""><span class="flaticon-008-youtube"></span></a>
-            </div>
+      <section class="icons-container">
+        <div class="icons">
+          <a href=""><span class="flaticon-001-facebook"></span></a>
+          <a href=""><span class="flaticon-002-twitter"></span></a>
+          <a href=""><span class="flaticon-011-instagram"></span></a>
+          <a href=""><span class="flaticon-010-linkedin"></span></a>
+          <a href=""><span class="flaticon-008-youtube"></span></a>
+        </div>
+      </section>
+      <header>
+        <nav>
+          <section class="nav-logo-container">
+            <a href="index.html"
+              ><img src="assets/logo.svg" width: "400px" height="125px"
+              alt="Logo de mi blog"></a
+            >
+          </section>
+          <button class="profile-link">
+            <a href="perfil.html">Sobre mí</a>
+          </button>
+        </nav>
+      </header>
+      <main class="home-main">
+        <section class="home-text-container">
+          <p class="home-main-text">
+            Conoce las novedades y noticias del mundo de los niños
+          </p>
+          <button class="home-main-button">
+            <a href="blogs.html">Entra ya!</a>
+          </button>
         </section>
-        <header>
-            <nav>
-                <section class="nav-logo-container">
-                    <a href="index.html"><img src="assets/logo.svg" width: "400px" height="125px" alt="Logo de mi blog"></a>
-                </section>
-                <button class="profile-link">
-                        <a href="perfil.html">Sobre mí</a>
-                </button>
-            </nav>
-        </header>
-        <main class="home-main">
-            <section class="home-text-container">
-                <p class="home-main-text">
-                    Conoce las novedades y noticias del mundo de los niños
-                </p>
-                <button class="home-main-button">
-                <a href="blogs.html">Entra ya!</a>
-                </button>   
-            </section>
-        </main>
+      </main>
     </section>
-</body>
+  </body>
 </html>

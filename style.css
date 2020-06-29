@@ -1,11 +1,12 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, system-ui;
 }
 .site {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background: url(assets/shapes-bg.png);
+  font-display: swap;
 }
 nav {
   display: flex;
@@ -38,6 +39,7 @@ nav .profile-link {
   display: flex;
   flex-direction: column;
   font-size: 50px;
+
   color: white;
   width: 800px;
 }
@@ -165,7 +167,7 @@ h2 {
 }
 h3,
 h1 {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Cabin Sketch", system-ui;
   color: #ff7355;
   font-size: 3.5rem;
 }
@@ -276,7 +278,7 @@ h4 {
   background-color: rgba(220, 232, 204, 0.5);
   border-radius: 20px;
   text-align: center;
-  font-family: "Cabin Sketch";
+  font-family: "Cabin Sketch", system-ui;
   font-size: 3rem;
   padding: 50px 0;
   color: white;
